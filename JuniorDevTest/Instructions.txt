@@ -1,0 +1,13 @@
+﻿Vehicle is an abstract class which is used to describe generic properties shared by all kinds of vehicles.
+Car is a class which inherits Vehicle
+
+Tasks:
+1. Create an overload constructor in Car-class which takes 0 arguments (you can set dummy or null values).
+2. Create an overload constructor in Car-class which takes numberOfSeats. You may add the other arguments as well if you want.
+3. Create a new class called Truck. Trucks have the classic Vehicle-properties + int LoadingCapacityInM3.
+4. The DisplayInfo-method displays always Name, Price and ModelYear. Can you move those Console.WriteLines into
+the Vehicle class? How can Car and Truck display the common properties AND their own in their respective DisplayInfo-methods?
+5. Car and Truck should never be inhereted. How can we prevent them from being inherted?
+6. Can you apply the Singleton pattern in the Clock class? If you don't know the Singleton pattern you may 
+take a minute to google it.
+7. 
